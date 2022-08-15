@@ -1,0 +1,41 @@
+.wrapper {
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.inner {
+  height: 100%;
+  width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: baseline;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text);
+  p {
+    font-style: normal;
+    font-size: 50px;
+    color: var(--primary);
+  }
+}
+.menu {
+  width: 457px;
+  color: #60646d;
+  cursor: pointer;
+  .list-action {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.action {
+  display: flex;
+  gap: 8px;
+}
